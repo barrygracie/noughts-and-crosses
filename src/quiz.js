@@ -67,7 +67,7 @@ export default function Quiz() {
 		}
 	};
 	return (
-		<div className='app'>
+		<div className='app' data-testid="q1">
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}

@@ -1,12 +1,12 @@
 import { render, screen, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom';
-import App from '../index';
+import Quiz from '../quiz';
 
-test('check sidenav', () => {
-    render(<App/>);
-    const sidenavElement = screen.getByTestId('sn1');
-    expect(sidenavElement).toBeInTheDocument();
-    expect(sidenavElement).toHaveTextContent('Contents');
+test('check quiz', () => {
+    render(<Quiz/>);
+    const quizElement = screen.getByTestId('q1');
+    expect(quizElement).toBeInTheDocument();
+    expect(quizElement).toHaveTextContent('HTML');
 })
 
 
