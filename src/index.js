@@ -5,7 +5,7 @@ import Quiz from './quiz';
 
 function Sidenav(){
     return(
-        <div class="sidenav">
+        <div data-testid="sn1" class="sidenav">
         <h2>Contents</h2>
         <a href="#one">What is HTML?</a>
         <a href="#two">HTML Elements</a>
@@ -237,7 +237,7 @@ function Content4() {
     </tr>
 
     </table><br></br>
-    <a href="https://www.javatpoint.com/html-tags" target="_blank">Click this link for a full guide on html tags</a><br></br>
+    <a href="https://www.javatpoint.com/html-tags" target="_blank" rel="noreferrer">Click this link for a full guide on html tags</a><br></br>
     </div>
     );
 }
@@ -249,8 +249,10 @@ function Content5() {
         <h1>Some Useful Links:</h1>
         <iframe width="640" height="360" src="https://www.youtube.com/embed/BvJYXl2ywUE" title="Introduction to HTML || Your First Web Page || Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="640" height="360" src="https://www.youtube.com/embed/PypMN-yui4Y" title="Introduction to HTML || Basic HTML Elements || Part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="HTML Full Course - Build a Website Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br></br>
-        <a href="https://www.w3schools.com/html/" target="_blank">W3 Schools Guide to HTML</a><br></br>
+        <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer">W3 Schools Guide to HTML</a><br></br>
 
         </div>
     );
@@ -281,5 +283,7 @@ function App() {
     );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App/>);
+//const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(<App/>);
+
+export default App;

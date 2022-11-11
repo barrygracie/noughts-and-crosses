@@ -16,8 +16,17 @@ export default function Quiz() {
 			answerOptions: [
 				{ answerText: '<a>', isCorrect: false },
 				{ answerText: '<img>', isCorrect: true },
-				{ answerText: '<p', isCorrect: false },
+				{ answerText: '<p>', isCorrect: false },
 				{ answerText: '<image>', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the correct tag for a hyperlink?',
+			answerOptions: [
+				{ answerText: '<hlnk>', isCorrect: false },
+				{ answerText: '<a>', isCorrect: true },
+				{ answerText: '<p>', isCorrect: false },
+				{ answerText: '<hl>', isCorrect: false },
 			],
 		},
 		{
@@ -29,6 +38,7 @@ export default function Quiz() {
 				{ answerText: 'A body', isCorrect: false },
 			],
 		},
+		
 		{
 			questionText: 'What does a markup language do?',
 			answerOptions: [

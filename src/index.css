@@ -37,7 +37,7 @@
   #two{border-style:ridge; border-color: #111; padding: 10px;}
   #three{border-style:ridge; border-color: #111; padding: 10px;}
   #four{border-style:ridge; border-color: #111; padding: 10px;}
-  #five{border-style:ridge; border-color: #111; padding: 10px;}
+  #five{border-style:ridge; border-color: #111; padding: 10px; text-align: center;}
   
   
   /* Style the top navigation bar */
