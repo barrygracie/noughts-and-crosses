@@ -24,8 +24,10 @@ function Content1() {
         
             <h1>Introduction to HTML</h1>
             
-            <p>HTML is the standard markup language for creating Web pages.</p>
+            <p>HTML is the standard markup language for creating Web pages. A markup language is a computer language that consists of easily understood keywords, names, or tags that help format the overall view of a page and the data it contains.</p><br></br>
 
+            <div className='listContainer'>
+            
             <ul className='list'>
                 <li>HTML stands for Hyper Text Markup Language</li>
                 <li>HTML is the standard markup language for creating Web pages</li>
@@ -35,6 +37,7 @@ function Content1() {
                 <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
             </ul>
 
+            </div>
 
         </div>
     ); 
@@ -44,7 +47,7 @@ function Content2() {
     return(
         <div id="two">
             <h1>What is an HTML Element?</h1><br></br>
-            <img src="https://developer.mozilla.org/en-US/docs/Glossary/Element/anatomy-of-an-html-element.png" alt="anatomy-of-an-html-element"></img><br></br>
+            <img className= "imgCenter" src="https://developer.mozilla.org/en-US/docs/Glossary/Element/anatomy-of-an-html-element.png" alt="anatomy-of-an-html-element"></img><br></br>
             
             <p>HTML elements can be nested (this means that elements can contain other elements). All HTML documents consist of nested HTML elements.</p>
 
@@ -56,7 +59,12 @@ function Content3() {
     return(
         <div id="three">
         <h1>HTML Page Structure</h1><br></br>
-        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/573/506/datas/original.png" alt="Basic HTML Structure"></img>
+        <img className= "imgCenter" src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/573/506/datas/original.png" alt="Basic HTML Structure"></img>
+        <br></br>
+        <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.
+        The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;. The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly.
+        It must only appear once, at the top of the page (before any HTML tags). The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
+        
         </div>
     );
 }
